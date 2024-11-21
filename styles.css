@@ -1,0 +1,40 @@
+html, body {
+    height: 119%; /* el body ocupe todo el alto de la ventana*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#e2e2e2,#77767c); /* Mix de fondo con dos colores*/
+    display: flex; /* elementos en horizontal o vertical*/
+    flex-direction: column;  /* flex-direction: Cambia la direccion => Columnn = Los elementos se ponen de arriba hacia abajo en forma de columna*/
+  }
+
+header,
+footer{
+    background-color: rgb(3, 3, 3);
+    color: rgb(103, 166, 166);
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+}
+
+main{
+    flex: 1; /* Ocupa el espacio disponible para empujar el footer hacia abajo*/
+    padding: 30px;
+    text-align: center;
+}
+
+.contenedor1{
+    color: rgb(33, 33, 171);
+
+}
+
+.IMAGEN{
+    text-align: center; /* Centrar la imagen */
+ }
+ .IMAGEN2{
+    text-align: center; /* Centrar la imagen */
+ }
+
+
+
