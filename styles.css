@@ -1,13 +1,13 @@
 html, body {
-    height: 119%; /* el body ocupe todo el alto de la ventana*/
-}
-
-body {
+    height: 100%;
+    margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(#e2e2e2,#77767c); /* Mix de fondo con dos colores*/
-    display: flex; /* elementos en horizontal o vertical*/
-    flex-direction: column;  /* flex-direction: Cambia la direccion => Columnn = Los elementos se ponen de arriba hacia abajo en forma de columna*/
-  }
+    background: linear-gradient(#e2e2e2, #77767c); /* Fondo degradado */
+    background-repeat: repeat-y; /* Repite el fondo verticalmente */
+    background-size: 100% 1000%; /* Ajusta el tamaño del degradado */
+    display: flex;
+    flex-direction: column;
+}
 
 header,
 footer{
