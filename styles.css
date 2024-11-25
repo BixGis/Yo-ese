@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(#e2e2e2, #4f4192); /* Fondo degradado */
+    background: linear-gradient(#941b1b, #4f4192); /* Fondo degradado */
     background-repeat: repeat-y; /* Repite el fondo verticalmente */
     background-size: 100% 1000%; /* Ajusta el tamaño del degradado */
     display: flex;
